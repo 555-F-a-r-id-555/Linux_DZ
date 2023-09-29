@@ -2,8 +2,10 @@
 
 int main()
 {
-    int i;
-    for (i = 0; i < 10; i++)
+    int i, count;
+    printf("Сколько раз повторить цикл: ");
+    scanf("%d", &count);
+    for (i = 0; i < count; i++)
     {
         printf("Hello, WOrld\n");
     }
